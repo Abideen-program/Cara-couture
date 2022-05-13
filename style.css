@@ -391,17 +391,17 @@ body{
     width: 0;
     min-width: 30%;
     height: 40vh;
-    background-image: url(./images/banner/b7.jpg);
+    background-image: url(./images/banner/b4.jpg);
     padding: 30px;
     margin-bottom: 20px;
 }
 
 #smallerBanner .bannerContainer:nth-child(2){
-    background-image: url(./images/banner/b4.jpg);
+    background-image: url(./images/banner/b18.jpg);
 }
 
 #smallerBanner .bannerContainer:nth-child(3){
-    background-image: url(./images/banner/b18.jpg);
+    background-image: url(./images/banner/b7.jpg);
 }
 
 #smallerBanner h2{
