@@ -46,7 +46,8 @@ p{
     margin: 40px 0;
 }
 
-.normal{
+.normal,
+.white{
     font-size: 16px;
     font-weight: 600;
     padding: 15px 30px;
@@ -57,6 +58,15 @@ p{
     outline: none;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.white{
+    font-size: 13px;
+    padding: 11px 18px;
+    color: #fff;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid #fff;
 }
 
 body{
@@ -287,7 +297,8 @@ body{
 /* The large banner section */
 
 #banner,
-#smallBanner .bannerContainer{
+#smallBanner .bannerContainer,
+#smallerBanner .bannerContainer{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -300,6 +311,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 #banner h4{
@@ -329,11 +341,77 @@ body{
     flex-wrap: wrap;
 }
 
-#smallBanner .bannerContainer{
+#smallBanner .bannerContainer,
+#smallerBanner .bannerContainer{
     width: 0;
     min-width: 580px;
     height: 50vh;
-    background-color: rgb(22, 22, 22);
-    background-image: url(./images/banner/b17.jpg);
+    background-image: url(./images/banner/b10.jpg);
     align-items: flex-start;
+    background-attachment: scroll;
+    padding: 30px;
+}
+
+#smallBanner .bannerContainer:nth-child(2){
+    background-image: url(./images/banner/b17.jpg);
+}
+
+#smallBanner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;;
+}
+
+#smallBanner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;;
+}
+
+#smallBanner span{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#smallBanner .bannerContainer:hover button{
+    background: #088178;
+    outline: 1px solid #088178;
+}
+
+#smallerBanner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#smallerBanner .bannerContainer{
+    width: 0;
+    min-width: 30%;
+    height: 40vh;
+    background-image: url(./images/banner/b7.jpg);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#smallerBanner .bannerContainer:nth-child(2){
+    background-image: url(./images/banner/b4.jpg);
+}
+
+#smallerBanner .bannerContainer:nth-child(3){
+    background-image: url(./images/banner/b18.jpg);
+}
+
+#smallerBanner h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#smallerBanner h3{
+    color: #ec544e;
+    font-size: 15px;
+    font-weight: 800;
 }
