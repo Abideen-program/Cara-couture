@@ -612,7 +612,7 @@ footer .copyright{
 
     #smallBanner .bannerContainer{
         min-width: 100%;
-        height: 40vh;
+        height: 35vh;
     }
 
     #smallBanner .bannerContainer:nth-child(2){
@@ -623,5 +623,17 @@ footer .copyright{
         padding: 0 40px;
     }
 
-    
+    #smallerBanner .bannerContainer {
+        min-width: 28%;
+        height: 30vh;
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
+
+    #newsletter {
+        justify-content: center;
+        align-items: center;
+    }
 }
