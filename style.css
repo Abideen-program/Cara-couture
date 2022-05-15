@@ -660,11 +660,16 @@ footer .copyright{
         padding: 20px;
     }
 
-    #feature, #product1 .productContainer {
-        justify-content: center;
+    #feature{
+        justify-content: space-between;
     }
 
     #feature .fe-box {
         width: 150px;
+        margin: 0 0 15px;
+    }
+
+    #product1 .product {
+        width: 100%;
     }
 }
