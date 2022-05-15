@@ -294,7 +294,7 @@ body{
     margin: auto;
 }
 
-/* The large banner section */
+/* The banner section */
 
 #banner,
 #smallBanner .bannerContainer,
@@ -416,6 +416,8 @@ body{
     font-weight: 800;
 }
 
+/* The newsletter section */
+
 #newsletter{
     display: flex;
     justify-content: space-between;
@@ -469,6 +471,8 @@ body{
     border-radius: 0 4px 4px 0;
 }
 
+/* The footer section */
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -479,4 +483,53 @@ footer .col{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow a{
+    color: #465b52;
+    padding-right: 4px;
+    display: inline-block;
+}
+
+footer .install .app img{
+    border: 1px solid #088178;
+    border-radius: 4px;
+}
+
+footer .install img{
+    margin: 10px 0 15px;
+}
+
+footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    align-self: center;
 }
