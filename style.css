@@ -672,4 +672,29 @@ footer .copyright{
     #product1 .product {
         width: 100%;
     }
+
+    #banner {
+        height: 30vh;
+    }
+
+    #smallBanner span {
+        text-align: justify;    
+    }
+
+    #smallerBanner {
+        padding: 0 20px;
+    }
+
+    #smallerBanner .bannerContainer{
+        width: 100%;
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
 }
