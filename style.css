@@ -542,6 +542,12 @@ footer .copyright{
 
 /* Media Queries */
 
+@media (max-width: 1280px) {
+    #smallBanner .bannerContainer{
+        min-width: 540px;
+    }
+}
+
 @media (max-width: 810px) {
     #navbar {
         display: flex;
