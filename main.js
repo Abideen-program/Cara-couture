@@ -1,5 +1,6 @@
 const body = document.querySelector('body');
 const hambugger = document.getElementById('hambugger');
+const navItems = document.querySelectorAll('.nav-items');
 
 function openNav() {
     if (body.classList.contains('openNav') === false){
@@ -14,5 +15,11 @@ function openNav() {
         `
     }
 }
+
+navItems.forEach( item => {
+    item.addEventListener('click', () => {
+        body.classList.remove('openNav');
+    })
+})
 
 hambugger.addEventListener('click', openNav)
