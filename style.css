@@ -553,7 +553,6 @@ footer .copyright{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        /* justify-content: space-evenly; */
         justify-content: flex-start;
         position: fixed;
         top: 83px;
@@ -702,5 +701,4 @@ footer .copyright{
     #newsletter .form {
         width: 100%;
     }
-
 }
