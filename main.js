@@ -16,6 +16,8 @@ function openNav() {
     }
 }
 
+// to remove the navbar when a nav link is selected
+
 navItems.forEach( item => {
     item.addEventListener('click', () => {
         body.classList.remove('openNav');
