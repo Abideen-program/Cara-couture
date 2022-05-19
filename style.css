@@ -722,3 +722,15 @@ footer .copyright{
 #shop-header p{
     color: #fff;
 }
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    background-color: #088178;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
