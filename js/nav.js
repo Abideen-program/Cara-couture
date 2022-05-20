@@ -54,6 +54,9 @@ const body = document.querySelector('body');
 const hambugger = document.getElementById('hambugger');
 const navItems = document.querySelectorAll('.nav-items');
 
+
+// To make hambugger work
+
 function openNav() {
     if (body.classList.contains('openNav') === false){
         body.classList.add('openNav');

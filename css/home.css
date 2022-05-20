@@ -77,7 +77,7 @@ body{
 
 /* Home Page */
 #main{
-    background-image: url(images/main.png);
+    background-image: url(../images/main.png);
     height: 90vh;
     width: 100%;
     background-position: top -30% right 0;
@@ -98,7 +98,7 @@ body{
 }
 
 #main button{
-    background-image: url(./images/button.png);
+    background-image: url(../images/button.png);
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
@@ -261,7 +261,7 @@ body{
     width: 100%;
     height: 40vh;
     background-color: rgb(22, 22, 22);
-    background-image: url(./images/banner/b2.jpg);
+    background-image: url(../images/banner/b2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -300,14 +300,14 @@ body{
     width: 0;
     min-width: 580px;
     height: 50vh;
-    background-image: url(./images/banner/b10.jpg);
+    background-image: url(../images/banner/b10.jpg);
     align-items: flex-start;
     background-attachment: scroll;
     padding: 30px;
 }
 
 #smallBanner .bannerContainer:nth-child(2){
-    background-image: url(./images/banner/b17.jpg);
+    background-image: url(../images/banner/b17.jpg);
 }
 
 #smallBanner h4{
@@ -345,17 +345,17 @@ body{
     width: 0;
     min-width: 30%;
     height: 40vh;
-    background-image: url(./images/banner/b4.jpg);
+    background-image: url(../images/banner/b4.jpg);
     padding: 30px;
     margin-bottom: 20px;
 }
 
 #smallerBanner .bannerContainer:nth-child(2){
-    background-image: url(./images/banner/b18.jpg);
+    background-image: url(../images/banner/b18.jpg);
 }
 
 #smallerBanner .bannerContainer:nth-child(3){
-    background-image: url(./images/banner/b7.jpg);
+    background-image: url(../images/banner/b7.jpg);
 }
 
 #smallerBanner h2{
@@ -377,7 +377,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(./images/banner/b14.png);
+    background-image: url(../images/banner/b14.png);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
