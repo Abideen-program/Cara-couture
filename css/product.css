@@ -1,0 +1,14 @@
+
+#productDetails{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+#productDetails #imageSlider{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../images/products/f1.jpg);
+    
+}
