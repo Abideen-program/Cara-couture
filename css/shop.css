@@ -47,8 +47,9 @@
 
 .product .actual-price{
     display: inline-block;
-    font-size: 18pxpx;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
     margin-left: 20px;
     text-decoration: line-through;
+    opacity: 0.5;
 }
