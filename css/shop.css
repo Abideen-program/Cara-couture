@@ -28,3 +28,27 @@
     border-radius: 4px;
     font-weight: 600;
 }
+
+.product{
+    position: relative;
+}
+
+.product .discount{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: #e3e6f3;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ff7d7d;
+    border-radius: 5px 0 5px 0;
+}
+
+.product .actual-price{
+    display: inline-block;
+    font-size: 18pxpx;
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: line-through;
+}

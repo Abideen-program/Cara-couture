@@ -1,6 +1,7 @@
 #productDetails{
     width: 100%;
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
 }
 
 #productDetails #imageSlider{
@@ -36,4 +37,19 @@
 
 #productImage img.active{
     opacity: 0.5;
+}
+
+#details{
+    width: 55%;
+}
+
+#details h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#details .short-desc{
+    font-size: 25px;
+    line-height: 30px;
+    height: auto;
 }
