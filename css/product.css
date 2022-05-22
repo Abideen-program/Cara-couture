@@ -129,3 +129,10 @@
     margin-right: 2%;
 }
 
+#fullDescription h2{
+    font-size: 30px;
+}
+
+#fullDescription .desc{
+    color: #383838;
+}
