@@ -79,3 +79,30 @@
     font-weight: 300;
 }
 
+#details .sizeRadioBtn{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #088178; 
+    border-radius: 50%;
+    color: #088178;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#details .sizeRadioBtn:hover{
+    outline: 1px solid #088178; 
+    border: 1px solid #fff; 
+}
+
+#details .sizeRadioBtn:hover,
+#details .sizeRadioBtn.check{
+    background-color: #088178;
+    color: #fff;
+}
+
