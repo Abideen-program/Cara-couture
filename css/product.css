@@ -133,8 +133,10 @@
     font-size: 30px;
 }
 
-#fullDescription .desc{
+#fullDescription .des{
     color: #383838;
+    line-height: 30px;
+    text-align: justify;
 }
 
 #details .number{
@@ -148,4 +150,29 @@
 
 #details .number:focus{
     outline: none;
+}
+
+@media (max-width: 1280px) {
+    
+}
+
+@media (max-width: 810px) {
+    #productDetails {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #details{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #fullDescription{
+        padding-top: 0;
+    }
+
+    #fullDescription h2{
+        text-align: center;
+    }
 }

@@ -53,3 +53,9 @@
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+@media (max-width: 810px) {
+    #shop-header {
+        height: 20vh;
+    }   
+}
