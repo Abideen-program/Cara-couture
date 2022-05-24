@@ -145,3 +145,7 @@
     border: 1px solid #088178;
     color: #088178;
 }
+
+#details .number:focus{
+    outline: none;
+}
