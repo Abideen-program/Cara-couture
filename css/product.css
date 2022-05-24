@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 1280px) {
+    #details{
+        width: 50%;
+    }
     
 }
 
@@ -174,5 +177,50 @@
 
     #fullDescription h2{
         text-align: center;
+    }
+}
+
+@media (max-width: 477px) {
+    #productDetails #imageSlider{
+        max-width: 100%;
+    }
+    
+    #details h2{
+        font-size: 20px;
+    }
+    
+    #details .short-desc{
+        font-size: 18px;
+    }
+    
+    #details .price{
+        font-size: 20px;
+    }
+    
+    #details .actual-price{
+        font-size: 20px;
+    }
+    
+    #details .discount{
+        font-size: 15px;
+    }
+    
+    #details .selectsize{
+        font-size: 25px;
+    }
+
+    #fullDescription h2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #details .sizeRadioBtn{
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .btn{
+        font-size: 13px;
     }
 }
