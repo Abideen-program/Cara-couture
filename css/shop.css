@@ -15,6 +15,7 @@
 #shop-header h2,
 #shop-header p{
     color: #fff;
+    text-align: center;
 }
 
 #pagination{

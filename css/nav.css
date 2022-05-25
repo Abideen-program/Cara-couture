@@ -30,12 +30,10 @@
     transition: 0.3s ease-in;
 }
 
-#navbar li a:hover,
-#navbar li a.active{
+#navbar li a:hover{
     color: #088178;
 }
 
-#navbar li a.active::after,
 #navbar li a:hover::after{
     content: '';
     width: 30%;
