@@ -11,6 +11,9 @@
 
 @import '/css/blog.css';
 
+
+@import '/css/about.css';
+
 *{
     margin: 0;
     padding: 0;
