@@ -1,3 +1,30 @@
 #shop-header.about-header{
-    background-image: url(../images/banner/b19.jpg);
+    background-image: url(../images/about/banner.png);
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about img{
+    width: 50%;
+    height: auto;
+}
+
+#about div{
+    width: 50%;
+    padding-left: 40px;
+}
+
+#about p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+marquee{
+    background: #ccc;
+    width: 100%;
 }
