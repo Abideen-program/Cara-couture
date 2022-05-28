@@ -1,4 +1,4 @@
-
+// creating the navbar
 const creatNav = () => {
         let header = document.querySelector('#header');
 
@@ -10,7 +10,7 @@ const creatNav = () => {
             <div>
                 <ul id="navbar">
                     <li class="nav-items">
-                        <a href="index.html" class="activeLink navLinks">Home</a>
+                        <a href="index.html" class="navLinks">Home</a>
                     </li>
 
                     <li class="nav-items">
@@ -53,11 +53,9 @@ creatNav();
 const body = document.querySelector('body');
 const hambugger = document.getElementById('hambugger');
 const navItems = document.querySelectorAll('.nav-items');
-const navLinks = document.querySelectorAll('.navLinks');
 
 
 // To make hambugger work
-
 function openNav() {
     if (body.classList.contains('openNav') === false){
         body.classList.add('openNav');
@@ -72,24 +70,11 @@ function openNav() {
     }
 }
 
-// to remove the navbar when a nav link is selected
-
+// to remove the navbar when a nav link is clicked
 navItems.forEach( item => {
     item.addEventListener('click', () => {
         body.classList.remove('openNav');
     })
 })
 
-hambugger.addEventListener('click', openNav)
-
-// 
-
-let currentLink = 0;
-
-Array.from(navLinks).forEach( (link, i) => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        navLinks[currentLink].classList.remove('activeLink');
-        
-    })
-})
+hambugger.addEventListener('click', openNav);
