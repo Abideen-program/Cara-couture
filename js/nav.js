@@ -86,10 +86,10 @@ hambugger.addEventListener('click', openNav)
 
 let currentLink = 0;
 
-navLinks.forEach( (link, i) => {
-    link.addEventListener('click', () => {
+Array.from(navLinks).forEach( (link, i) => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
         navLinks[currentLink].classList.remove('activeLink');
-        link[i].classList.add('activeLink');
-        currentLink = i;      
+        
     })
 })

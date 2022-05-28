@@ -31,7 +31,8 @@
 }
 
 #navbar li a:hover,
-#navbar li a.activeLink{
+#navbar li a.activeLink,
+.activeLink{
     color: #088178;
 }
 
