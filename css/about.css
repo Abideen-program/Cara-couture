@@ -43,3 +43,31 @@ marquee{
     height: 100%;
     border-radius: 20px;
 }
+
+@media (max-width: 810px) {
+    #about{
+        flex-direction: column;
+    }
+    
+    #about img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    #about div{
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    #about-app .video{
+        width: 80%;
+    }
+}
+
+@media (max-width: 477px) {
+        
+    #about-app h1{ 
+        font-size: 30px;    
+    }
+}
