@@ -65,8 +65,7 @@ marquee{
     }
 }
 
-@media (max-width: 477px) {
-        
+@media (max-width: 477px) {      
     #about-app h1{ 
         font-size: 30px;    
     }
